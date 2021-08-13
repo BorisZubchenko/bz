@@ -1,4 +1,4 @@
-import styles from './index.module.css';
+import styles from './index.module.css'
 
 export function Index() {
   /*
@@ -92,7 +92,7 @@ nx affected:e2e
 `}</pre>
       </details>
     </div>
-  );
+  )
 }
 
-export default Index;
+export default Index
