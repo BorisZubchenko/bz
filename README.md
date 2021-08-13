@@ -1,3 +1,5 @@
+[![CI](https://github.com/BorisZubchenko/nx-nextjs-tailwindcss-storybook/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/BorisZubchenko/nx-nextjs-tailwindcss-storybook/actions/workflows/ci.yml)
+
 # Bz
 
 This project was generated using [Nx](https://nx.dev).
