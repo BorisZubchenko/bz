@@ -41,7 +41,9 @@
           "outputs": ["coverage/apps/client"],
           "options": {
             "jestConfig": "apps/client/jest.config.js",
-            "passWithNoTests": true
+            "passWithNoTests": true,
+            "json": true,
+            "outputFile": "apps/client/.jest-test-results.json"
           }
         },
         "lint": {
