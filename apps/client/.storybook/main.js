@@ -1,6 +1,8 @@
 const rootMain = require('../../../.storybook/main')
 const postcssOptions = require('../postcss.config')
 
+process.env.TAILWIND_MODE = 'watch'
+
 module.exports = {
   ...rootMain,
 
@@ -21,6 +23,9 @@ module.exports = {
         },
       },
     },
+    '@storybook/addon-jest',
+    'storybook-tailwind-dark-mode',
+    'storybook-mobile',
   ],
   webpackFinal: async (config, { configType }) => {
     // apply any global webpack configs that might have been specified in .storybook/main.js
