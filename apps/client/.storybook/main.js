@@ -24,6 +24,7 @@ module.exports = {
       },
     },
     '@storybook/addon-jest',
+    '@storybook/addon-a11y',
     'storybook-tailwind-dark-mode',
     'storybook-mobile',
   ],
