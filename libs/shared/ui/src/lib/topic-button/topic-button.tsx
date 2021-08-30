@@ -6,7 +6,7 @@ export interface TopicButtonProps {}
 export function TopicButton(props: TopicButtonProps) {
   return (
     <div>
-      <h1>Welcome to TopicButton!</h1>
+      <h1 className="bg-[#fe4]">Welcome to TopicButton!</h1>
     </div>
   )
 }
