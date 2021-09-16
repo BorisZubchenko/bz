@@ -1,4 +1,5 @@
 import styles from './index.module.css'
+import { TopicButton } from '@bz/shared/ui'
 
 export function Index() {
   /*
@@ -8,6 +9,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <TopicButton />
       <h2>Resources &amp; Tools</h2>
       <p>Thank you for using and showing some ♥ for Nx.</p>
       <div className="flex github-star-container">

@@ -34,6 +34,13 @@
     "client-e2e": {
       "tags": [],
       "implicitDependencies": ["client"]
+    },
+    "shared-ui": {
+      "tags": []
+    },
+    "storybook-e2e-ui-e2e": {
+      "tags": [],
+      "implicitDependencies": ["shared-ui"]
     }
   }
 }
